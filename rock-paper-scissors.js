@@ -41,9 +41,9 @@ function playGame() {
     }
 
     // Play 5 round
-    for (let i = 0; i < 5; i++) {
-        playRound(getHumanChoice(), getComputerChoice());
-    }
+    // for (let i = 0; i < 5; i++) {
+    //     playRound(getHumanChoice(), getComputerChoice());
+    // }
 
     // Determine the winner
     let stats;
@@ -63,3 +63,4 @@ function playGame() {
 
 // Tests | Call
 playGame()
+
